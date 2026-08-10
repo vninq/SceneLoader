@@ -2,8 +2,8 @@
 using BepInEx;
 
 namespace SceneLoader
-{
-    [BepInPlugin("SceneLoader", "SceneLoader", "1.0.0")]
+    
+    [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
     public class Plugin : BaseUnityPlugin
     {
         private void Awake()
@@ -11,4 +11,3 @@ namespace SceneLoader
             Logger.LogInfo("Plugin SceneLoader is loaded!!!");
         }
     }
-}
