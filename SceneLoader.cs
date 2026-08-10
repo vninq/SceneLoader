@@ -11,9 +11,9 @@ namespace SceneLoader
 
 public class SceneLoader : BaseMod
  {
-      public override string Name => "Scene Loader";
+     public override string Name => "Scene Loader";
      public override string Description => "instantly load scenes";
-      public override ModsWindow ModsWindow => lstwoMODS_WobblyLife.Plugin.ServerModsWindow;
+     public override ModsWindow ModsWindow => lstwoMODS_WobblyLife.Plugin.ServerModsWindow;
 
       public override Container BuildPanel(string id)
       {
